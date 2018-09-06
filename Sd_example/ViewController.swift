@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         label.center = view.center
         label.sizeToFit()
         
+        view.backgroundColor = UIColor.red
+        
         view.addSubview(label)
     }
 
