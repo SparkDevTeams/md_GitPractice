@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let label = UILabel()
+        label.text = "Hello"
+        label.center = view.center
+        label.sizeToFit()
+        
+        view.addSubview(label)
     }
 
     override func didReceiveMemoryWarning() {
